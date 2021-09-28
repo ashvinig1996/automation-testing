@@ -1,0 +1,15 @@
+package seleniumDay11;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrangeHRM {
+
+	public static void main(String[] args) {
+		// 1) Open web Browser(Chrome/IE/Firefox)
+		System.setProperty("webdriver.chrome.driver", "home/ashwini/testing/Drivers/chrome/chromedriver");
+		ChromeDriver driver=new ChromeDriver();
+		
+
+	}
+
+}

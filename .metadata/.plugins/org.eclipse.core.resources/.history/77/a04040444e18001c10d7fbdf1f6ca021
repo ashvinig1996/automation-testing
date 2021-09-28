@@ -1,0 +1,23 @@
+package seleniumDay11;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class OrangeHRM {
+
+	public static void main(String[] args) {
+		// 1) Open web Browser(Chrome/IE/Firefox)
+//		System.setProperty("webdriver.chrome.driver",
+//				"/home/ashwini/testing/Drivers/chromedriver_linux64/chromedriver");
+		
+		System.setProperty("webdriver.gecko.driver",
+				"/home/ashwini/testing/Drivers/geckodriver-v0.30.0-linux64/geckodriver");
+
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://www.pornhub.com");
+	}
+
+}
