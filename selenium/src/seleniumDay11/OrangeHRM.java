@@ -52,7 +52,7 @@ public class OrangeHRM {
 		{
 			System.out.println("Test Failed");
 		}
-		 fdjfbjdssssssssssabfonwadufbjdabnfiodafbdifnidjfpjdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaapiuf
+
 //8) Close Browser
 		driver.close();//driver.quit()
 		
